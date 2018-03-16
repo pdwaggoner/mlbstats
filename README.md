@@ -1,5 +1,4 @@
-# mlbstats
-Major League Baseball Player Statistics Calculator
+# `mlbstats`: Major League Baseball Player Statistics Calculator
 
 ---
 title: "README.md"
