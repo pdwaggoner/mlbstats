@@ -1,12 +1,5 @@
 # `mlbstats`: Major League Baseball Player Statistics Calculator
 
----
-title: "README.md"
-author: "Philip D. Waggoner"
-date: "3/14/2018"
-output: html_document
----
-
 ## Why should I use `mlbstats`?
 
 This package serves as a baseball statistics calculator. Similar to using `sum(2,2)` in R to compute the output `[1] 4`, `mlbstats` allows for simple computation of a host of player-level metrics based on raw inputs. Metrics from major league baseball (MLB) include batting, pitching, fielding, baserunning, and overall player statistics. As a note, some metrics were omitted due to lack of readily available *raw* data to plug into functions (e.g., UZR or WAR, which require complex *and* conditional weighting strategies). Rather, the goal of this package is to provide an intuitive calculator for interested users to quickly and efficiently calculate player metrics based on raw, easily obtainable data. For more complex metrics such as WAR, UZR, PWA, and others, see resources such as <https://www.baseball-reference.com/> or Bill James' sabermetrics guides.
