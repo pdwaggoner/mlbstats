@@ -36,4 +36,4 @@ pfr(308, 43, 214.1) # see help pages for descriptions of each input
 
 ## How do I get `mlbstats`?
 
-You can get the package (0.1.0) on CRAN, <https://CRAN.R-project.org/package=mlbstats> or at my personal website, <http://www.philipdwaggoner.com/>. If you have any questions, find any bugs requiring fixing, or find metrics I left out, please feel free to contact me. If you use the package for any published work, either formally or informally, please let me know *first*. Thanks and enjoy!
+You can get the package (0.1.0) on CRAN, <https://CRAN.R-project.org/package=mlbstats>. If you have any questions, find any bugs requiring fixing, or find metrics I left out, please feel free to [contact me](http://www.philipdwaggoner.com/). If you use the package for any published work, either formally or informally, please let me know *first*. Thanks and enjoy!
