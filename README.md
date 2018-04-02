@@ -26,7 +26,7 @@ obp(204, 58, 9, 590, 4) # see help pages for descriptions of each input
 
 See the official MLB statistics site for verification, that Altuve's 2017 Regular Season OBP was recorded as 0.410. Take another example from Boston Red Sox pitcher Chris Sale.
 
-###### Chris Sale (Boston Red Sox) 2017 Regular Season FIP (power finesse ratio metric)
+###### Chris Sale (Boston Red Sox Pitcher) 2017 Regular Season PFR (power finesse ratio metric)
 
 ```{r mlbstats}
 pfr(308, 43, 214.1) # see help pages for descriptions of each input
