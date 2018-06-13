@@ -1,7 +1,6 @@
 # `mlbstats`: Major League Baseball Player Statistics Calculator
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/mlbstats)](http://cran.r-project.org/package=mlbstats)
-![Downloads](http://cranlogs.r-pkg.org/badges/mlbstats)
 [![total](http://cranlogs.r-pkg.org/badges/grand-total/mlbstats)](http://cranlogs.r-pkg.org/)
 
 ## Why should I use `mlbstats`?
