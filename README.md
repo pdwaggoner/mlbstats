@@ -16,7 +16,7 @@ install.packages("mlbstats") # Install directly from CRAN
 library(mlbstats) # then, run the library
 ```
 
-###### Jose Altuve's (Houston Astros' Slugger) 2017 Regular Season OBP (on-base percentage metric)
+###### Jose Altuve's (Houston Astros Slugger) 2017 Regular Season OBP (on-base percentage metric)
 
 ```{r }
 obp(204, 58, 9, 590, 4) # see help pages for descriptions of each input
