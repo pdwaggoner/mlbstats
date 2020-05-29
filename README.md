@@ -31,7 +31,7 @@ See the official MLB statistics site for verification, that Altuve's 2017 Regula
 ###### Chris Sale (Boston Red Sox Pitcher) 2017 Regular Season PFR (power finesse ratio metric)
 
 ```{r mlbstats}
-pfr(308, 43, 214.1) # see help pages for descriptions of each input
+pfr(308, 43, 214.1) # see documentation for descriptions of each input
 ```
 
 [1] 1.639421
