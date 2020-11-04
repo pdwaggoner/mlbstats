@@ -19,6 +19,8 @@ install.packages("mlbstats")
 library(mlbstats)
 ```
 
+## Implementation
+
 ###### Jose Altuve's (Houston Astros Silver Slugger) 2017 Regular Season OBP (on-base percentage)
 
 ```{r }
