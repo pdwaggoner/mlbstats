@@ -2,7 +2,6 @@
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/mlbstats)](http://cran.r-project.org/package=mlbstats)
 [![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/mlbstats)](http://cranlogs.r-pkg.org/)
-[![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/mlbstats)](http://www.r-pkg.org/pkg/mlbstats)
 [![Documentation](https://img.shields.io/badge/documentation-mlbstats-orange.svg?colorB=E91E63)](https://www.r-pkg.org/pkg/mlbstats)
 
 ## Why should I use `mlbstats`?
