@@ -10,7 +10,7 @@ This package is a player-level baseball statistics calculator. Similar to using 
 
 ## How do I use `mlbstats`?
 
-From the simplest calculations (e.g., batting average, which is computed by dividing the number of hits by at bats) to complicated ones (e.g., a pitcher's component earned run average, calculated as a function of hits, walks, batters hit, homeruns, intentional walks, numberof batters facing the pitcher, and innings pitched, as well as relevant weights, `9 * ((h + bb + hbp) * (0.89 * (1.255 * (h - hr) + 4 * hr) + 0.56 * (bb + hbp - ibb)) / (bfp * ip)) - 0.56)`), `mlbstats` allows for supplying raw player-level (comma-separated) data into the relevant function to give the desired metric.
+From the simplest calculations (e.g., batting average = number of hits / at bats) to complicated ones (e.g., a pitcher's component earned run average, calculated as a function of hits, walks, batters hit, homeruns, intentional walks, numberof batters facing the pitcher, and innings pitched, as well as relevant weights, `9 * ((h + bb + hbp) * (0.89 * (1.255 * (h - hr) + 4 * hr) + 0.56 * (bb + hbp - ibb)) / (bfp * ip)) - 0.56)`), `mlbstats` takes several arguments for unique player-level data, and returns the desired metric.
 
 ## Installation
 
@@ -40,7 +40,11 @@ Corroborate with the official MLB statistics, recording Altuve's 2017 regular se
 ###### Chris Sale (Boston Red Sox Pitcher) 2017 Regular Season PFR (power finesse ratio)
 
 ```{r mlbstats}
-pfr(308, 43, 214.1)
+pfr(
+  k = 308, # strikeouts
+  bb = 43, # walks
+  ip = 214.1 # innings pitched
+)
 ```
 
 [1] 1.639421
