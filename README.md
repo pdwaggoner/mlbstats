@@ -24,7 +24,13 @@ library(mlbstats)
 ###### Jose Altuve's (Houston Astros Silver Slugger) 2017 Regular Season OBP (on-base percentage)
 
 ```{r }
-obp(204, 58, 9, 590, 4) 
+obp(
+  h = 204, # hits
+  bb = 58, # walks
+  hbp = 9, # hits by pitch
+  ab = 590, # at bats
+  sf = 4 # sacrifice flys
+) 
 ```
 
 [1] 0.4099849
