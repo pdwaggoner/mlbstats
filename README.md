@@ -10,7 +10,7 @@ This package is a player-level baseball statistics calculator. Similar to using 
 
 ## How do I use `mlbstats`?
 
-From the simplest calculations (e.g., batting average = number of hits / at bats) to complicated ones (e.g., a pitcher's component earned run average, calculated as a function of hits, walks, batters hit, homeruns, intentional walks, numberof batters facing the pitcher, and innings pitched, as well as relevant weights, `9 * ((h + bb + hbp) * (0.89 * (1.255 * (h - hr) + 4 * hr) + 0.56 * (bb + hbp - ibb)) / (bfp * ip)) - 0.56)`), `mlbstats` takes several arguments for unique player-level data, and returns the desired metric.
+From the simplest calculations (e.g., batting average = number of hits / at bats) to complicated ones (e.g., a pitcher's component earned run average, calculated as, `9 * ((h + bb + hbp) * (0.89 * (1.255 * (h - hr) + 4 * hr) + 0.56 * (bb + hbp - ibb)) / (bfp * ip)) - 0.56)`), unique functions in `mlbstats` take unique values from player-level data, and return the desired metric.
 
 ## Installation
 
