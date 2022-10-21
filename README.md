@@ -10,6 +10,8 @@
 
 This package is a player-level baseball statistics calculator. Similar to using `sum(2,2)` to perform the operation `2 + 2`, `mlbstats` allows for simple computation of a host of player-level metrics based on raw inputs. Common metrics from major league baseball (MLB) include batting, pitching, fielding, baserunning, and player-summary statistics. The goal of this package, then, is to provide an easy-to-use calculator to efficiently calculate player metrics based on raw, easily obtainable data. For some other metrics such as WAR, UZR, PWA, etc., see <https://www.baseball-reference.com/> or Bill James' sabermetrics guides.
 
+Take a look at the package, along with many other excellent related packages, in the [Sports Analytics CRAN Task View](https://cran.r-project.org/web/views/SportsAnalytics.html). 
+
 ## How do I use `mlbstats`?
 
 From the simplest calculations (e.g., batting average = number of hits / at bats) to complicated ones (e.g., a pitcher's component earned run average, calculated as, `9 * ((h + bb + hbp) * (0.89 * (1.255 * (h - hr) + 4 * hr) + 0.56 * (bb + hbp - ibb)) / (bfp * ip)) - 0.56)`), unique functions in `mlbstats` take unique values from player-level data, and return the desired metric.
