@@ -1,7 +1,7 @@
 # `mlbstats`: Major League Baseball Player Statistics Calculator
 
-[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/mlbstats)](http://cran.r-project.org/package=mlbstats)
-[![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/mlbstats)](http://cranlogs.r-pkg.org/)
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/mlbstats)](http://cran.r-project.org/package=mlbstats) 
+[![Downloads](https://cranlogs.r-pkg.org/badges/grand-total/mlbstats)](https://cran.r-project.org/package=mlbstats)
 [![Documentation](https://img.shields.io/badge/documentation-mlbstats-orange.svg?colorB=E91E63)](https://www.r-pkg.org/pkg/mlbstats)
 [![](https://img.shields.io/badge/CTV-SportsAnalytics-red)](https://cran.r-project.org/web/views/SportsAnalytics.html)
 
